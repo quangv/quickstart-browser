@@ -3,7 +3,9 @@
     "shadow-cljs": "^2.2.29"
   },
   "dependencies": {
+    "aws-amplify": "^0.2.14",
     "aws-sdk": "^2.224.1",
+    "buffer": "^5.1.0",
     "moment": "^2.22.0"
   }
 }

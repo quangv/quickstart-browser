@@ -1,12 +1,13 @@
 (ns starter.browser
   (:require ["moment" :as moment]
-            ["aws-sdk" :as AWS]))
+            [starter.buffer-fix]
+            ["aws-amplify" :as Amplify]))
 
 ;; start is called by init and after code reloading finishes
 (defn ^:dev/after-load start []
   (js/console.log "start")
   (js/console.log "moment" (.format (moment)))
-  (js/console.log "AWS" AWS)
+  (js/console.log "Amplify" Amplify)
   )
 
 (defn ^:export init []
