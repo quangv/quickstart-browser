@@ -3,6 +3,7 @@
     "shadow-cljs": "^2.2.16"
   },
   "dependencies": {
+    "aws-sdk": "^2.94.0",
     "moment": "^2.22.0"
   }
 }

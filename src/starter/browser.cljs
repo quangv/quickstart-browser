@@ -1,5 +1,6 @@
 (ns starter.browser
-  (:require ["moment" :as moment]))
+  (:require ["moment" :as moment]
+            ["aws-sdk"]))
 
 ;; start is called by init and after code reloading finishes
 (defn ^:dev/after-load start []
