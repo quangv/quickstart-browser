@@ -1,8 +1,11 @@
-(ns starter.browser)
+(ns starter.browser
+  (:require ["moment" :as moment]))
 
 ;; start is called by init and after code reloading finishes
 (defn ^:dev/after-load start []
-  (js/console.log "start"))
+  (js/console.log "start")
+  (js/console.log "moment" (.format (moment)))
+  )
 
 (defn ^:export init []
   ;; init is called ONCE when the page loads
